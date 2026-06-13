@@ -1,13 +1,18 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Deba</title>
+  <title>Debasish Pradhan</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=NTR&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
-</head>
+
+  <link rel="icon" href="favicon.ico">
+ </head>
 <body>
 
   <header>
@@ -17,8 +22,8 @@
       <a href="#about">About</a>
       <a href="#experience">Experience</a>
       <a href="#skills">Skills</a>
-      <a href="#goals">Goals</a>
-      <a href="#contact">Contact</a>
+      <a href="#hobby">hobby</a>
+      <a href="#">Contact</a>
     </nav>
     <div class="nav-icons">
       <a href="mailto:dp0000000004@gmail.com" title="Email">
@@ -51,25 +56,23 @@
     <!-- HERO -->
     <section class="hero" id="home">
         <div class="hero-photo-placeholder">
+          <!-- <img src="debav-removebg-preview.png"> -->
         </div>
       </div>
       <div class="hero-copy">
-        <span class="hero-tag">Casual. Curious. Always building.</span>
+        <span class="hero-tag"></span>
         <h1>
-          <span class="light">hi, </span><span class="accent" style="font-family: arial;">deba</span><br>
+          <span class="light">hi, </span><span class="accent">deba</span>
           <span class="light">here.</span><span class="cursor"></span>
         </h1>
         <p class="hero-intro">
-          A Diploma Computer Engineering student who enjoys coding, robotics,
-          and turning new ideas into small creative projects.
+          Diploma Computer Engineering student enjoys coding by day and making little projects and Learning web development and Python
+          and art by night.
         </p>
         <div class="hero-actions">
           <a class="btn btn-outline" href="mailto:dp0000000004@gmail.com">✉ Say hi!</a>
         </div>
-        <ul class="quick-notes">
-          <li>Learning web development and Python</li>
-          <li>Interested in data structures and robotics</li>
-          <li>Trying to grow a little every day</li>
+        <ul class="quick-notes" id="quickNote-El">
         </ul>
       </div>
     </section>
@@ -79,7 +82,7 @@
     <!-- ABOUT -->
     <section class="about-section panel" id="about">
       <div class="about-copy">
-        <span class="s-label">About Me</span>
+        <h1 class="s-label"><span>/</span> about me</h1>
         <h2 class="s-title">Learning by building, one focused project at a time.</h2>
         <p>
           I am a Diploma Computer Engineering student focused on web development,
@@ -95,6 +98,7 @@
           <p class="about-tech-title">Technologies I currently work with:</p>
           <ul class="about-tech-list">
             <li>Python</li>
+            <li>JavaScript</li>
           </ul>
         </div>
       </div>
@@ -109,10 +113,10 @@
         <h2 class="section-headline"><span>/</span> experience</h2>
       </div>
       <div class="experience-layout">
-        <aside class="experience-tabs">
-          <button class="exp-tab active" type="button">Portfolio Development</button>
-          <button class="exp-tab" type="button">Python Practice</button>
-          <button class="exp-tab" type="button">DSA Journey</button>
+        <aside class="experience-tabs" id="button-Sft">
+          <button class="exp-tab " type="button" id="web-dev">Web Development</button>
+          <button class="exp-tab active" type="button" id="py-dev">Python Practice</button>
+          <button class="exp-tab" type="button"></button>
         </aside>
         <div class="experience-content">
           <h3 class="experience-role">Student Developer @ Self-driven Projects</h3>
@@ -139,12 +143,12 @@
       </div>
     </section>
 
-    <section class="experience panel" id="goals">
+    <section class="experience panel" id="hobby">
       <div class="experience-head">
-        <h2 class="section-headline"><span>/</span> goals</h2>
+        <h2 class="section-headline"><span>/</span>hobby </h2>
       </div>
       <div class="experience-content">
-        <h3 class="experience-role">Where I want to go next</h3>
+        <h3 class="experience-role"></h3>
         <ul class="experience-points">
           <li>Build stronger real-world projects that solve practical student-level problems.</li>
           <li>Grow from beginner projects to internship-ready development work.</li>
@@ -163,14 +167,14 @@
         </ul>
       </div>
     </section>
-
+  <script src="index.js"></script>
   </main>
 
   <!-- FOOTER -->
   <footer id="contact">
       <div class="footer-bottom">
-        <span>Built by Debasish Pradhan</span>
-        <span>© 2025 — All rights reserved</span>
+        <span>Built by Debasish Pradhan</span><br>
+        <span>©All rights reserved</span>
       </div>
     </div>
   </footer>

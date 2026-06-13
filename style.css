@@ -1,4 +1,4 @@
-/* ── VARIABLES ── */
+
 :root {
   --bg:       #060d1a;
   --bg2:      #0c1628;
@@ -10,7 +10,7 @@
   --card:     rgba(12, 22, 40, 0.85);
 }
 
-/* ── RESET ── */
+
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -20,8 +20,7 @@
 html { scroll-behavior: smooth; }
 
 body {
-  /* MAIN SITE FONT: change this to update text across most of the website */
-  font-family: 'Syne', sans-serif;
+  font-family: 'NTR', sans-serif;
   background: linear-gradient(180deg, #071226 0%, #060d1a 100%);
   color: var(--white);
   min-height: 100vh;
@@ -61,7 +60,7 @@ header {
 
 .brand {
   /* NAVBAR NAME FONT: change this for the top-left name text */
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'NTR', sans-serif;
   font-size: 0.9rem;
   color: #f4f7ff;
   letter-spacing: 0.01em;
@@ -79,7 +78,7 @@ nav a {
   /* NAVBAR LINK FONT: change this for Home/About/Experience links */
   color: #f1f5ff;
   text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'NTR', sans-serif;
   font-size: 0.76rem;
   font-weight: 600;
   letter-spacing: 0;
@@ -154,7 +153,7 @@ nav a:hover { opacity: 0.82; color: #ffffff; }
 
 .hero-photo-label {
   /* MONO DISPLAY FONT: change this style for highlighted labels (like Add Photo) */
-  font-family: 'Space Mono', monospace;
+  font-family:'NTR', sans-serif;
   font-size: 1rem;
   font-weight: 700;
   color: var(--teal);
@@ -189,7 +188,7 @@ nav a:hover { opacity: 0.82; color: #ffffff; }
 }
 
 .hero-tag {
-  font-family: arial;
+  font-family: 'NTR', sans-serif;
   font-size: 0.76rem;
   color: var(--teal);
   letter-spacing: 0.2em;
@@ -205,8 +204,8 @@ nav a:hover { opacity: 0.82; color: #ffffff; }
   margin-bottom: 26px;
 }
 
-.hero h1 .light  { font-weight: 400; color: var(--white); }
-.hero h1 .accent { color: var(--teal); }
+.hero h1 .light  { font-weight: 400; color: var(--white); font-family: 'NTR', sans-serif; }
+.hero h1 .accent { color: var(--teal);font-family:'NTR', sans-serif; }
 
 /* blinking cursor */
 .cursor {
@@ -246,8 +245,8 @@ nav a:hover { opacity: 0.82; color: #ffffff; }
   gap: 8px;
   padding: 13px 26px;
   border-radius: 4px;
-  font-family: 'Space Mono', monospace;
-  font-size: 0.82rem;
+  font-family: 'NTR', sans-serif;
+  font-size: 0.85rem;
   font-weight: 700;
   letter-spacing: 0.04em;
   text-decoration: none;
@@ -352,7 +351,7 @@ nav a:hover { opacity: 0.82; color: #ffffff; }
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Space Mono', monospace;
+  font-family: 'NTR', sans-serif;
   font-size: 5rem;
   font-weight: 700;
   color: var(--teal);
@@ -388,7 +387,7 @@ nav a:hover { opacity: 0.82; color: #ffffff; }
 
 .fcard span {
   display: block;
-  font-family: 'Space Mono', monospace;
+  font-family: 'NTR', sans-serif;
   font-size: 0.66rem;
   color: var(--teal);
   letter-spacing: 0.1em;
@@ -410,22 +409,21 @@ nav a:hover { opacity: 0.82; color: #ffffff; }
 
 /* ── SECTION LABELS & TITLES ── */
 .s-label {
-  font-family: 'Space Mono', monospace;
-  font-size: 0.76rem;
+  font-family:'NTR', sans-serif;
   color: var(--teal);
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
+  letter-spacing: 0.23px;
   margin-bottom: 12px;
   display: block;
 }
 
-.s-label::before { content: '/ '; }
+.s-label::before
 
 .s-title {
   font-size: clamp(1.6rem, 3vw, 2.4rem);
   font-weight: 800;
   color: var(--white);
   margin-bottom: 16px;
+  font-family:'NTR', sans-serif;
   line-height: 1.1;
 }
 
@@ -568,7 +566,7 @@ nav a:hover { opacity: 0.82; color: #ffffff; }
   background: transparent;
   color: #8e9ab4;
   text-align: left;
-  font-family: 'Syne', sans-serif;
+  font-family: 'NTR', sans-serif;
   font-size: 0.95rem;
   padding: 8px 10px;
   border-radius: 6px;
@@ -587,7 +585,7 @@ nav a:hover { opacity: 0.82; color: #ffffff; }
 
 .experience-date {
   color: #96a2bb;
-  font-family: 'Space Mono', monospace;
+  font-family: 'NTR', sans-serif;
   font-size: 0.84rem;
   margin-bottom: 20px;
   letter-spacing: 0.05em;
@@ -648,7 +646,7 @@ nav a:hover { opacity: 0.82; color: #ffffff; }
 
 .mini-card span {
   display: block;
-  font-family: 'Space Mono', monospace;
+  font-family: 'NTR', sans-serif;
   font-size: 0.66rem;
   color: var(--muted);
   letter-spacing: 0.08em;
@@ -723,7 +721,7 @@ nav a:hover { opacity: 0.82; color: #ffffff; }
 
 .goal-list li::before {
   content: '0' counter(goals) '.';
-  font-family: arial;
+  font-family: 'NTR', sans-serif;
   font-size: 0.76rem;
   color: var(--teal);
   flex-shrink: 0;
@@ -738,7 +736,6 @@ a:hover { text-decoration: underline; }
 
 /* ── FOOTER ── */
 footer {
-  position: relative;
   z-index: 1;
   max-width: 1100px;
   margin: 0 auto;
@@ -764,13 +761,11 @@ footer {
   margin-top: 24px;
   padding-top: 20px;
   border-top: 1px solid var(--line);
-  display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
 .footer-bottom span {
-  font-family: 'Space Mono', monospace;
+  font-family: 'NTR', sans-serif;
   font-size: 0.73rem;
   color: var(--muted);
   letter-spacing: 0.06em;
