@@ -92,10 +92,9 @@ nav a {
 nav a:hover {
   padding-left:4px;
   padding-right:4px;
-  background-color: rgba(0, 229, 195, 0.18); 
+  color: #00e5c3; 
   opacity: 0.82;
-  border-radius:4px; 
-  color: #ffffff; 
+  border-radius:4px; /*Need Help*/
 }
 
 .nav-icons {
@@ -111,7 +110,8 @@ nav a:hover {
   transition: opacity 0.2s;
 }
 
-.nav-icons a:hover { opacity: 1; color: #f5f8ff; }
+.nav-icons a:hover {
+   opacity: 1; color: #00e5c3; }
 .nav-icons svg { width: 14px; height: 14px; }
 
 /* ── PAGE WRAPPER ── */
