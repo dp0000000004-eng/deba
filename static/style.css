@@ -82,10 +82,21 @@ nav a {
   font-size: 0.76rem;
   font-weight: 600;
   letter-spacing: 0;
-  transition: opacity 0.2s;
+  cursor:pointer;
+  border-radius:4px;
+  padding-left:4px;
+  padding-right:4px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-nav a:hover { opacity: 0.82; color: #ffffff; }
+nav a:hover {
+  padding-left:4px;
+  padding-right:4px;
+  background-color: rgba(0, 229, 195, 0.18); 
+  opacity: 0.82;
+  border-radius:4px; 
+  color: #ffffff; 
+}
 
 .nav-icons {
   display: flex;
@@ -240,7 +251,7 @@ nav a:hover { opacity: 0.82; color: #ffffff; }
 
 /* ── BUTTONS ── */
 .btn {
-  display: inline-flex;
+  display: block;
   align-items: center;
   gap: 8px;
   padding: 13px 26px;
@@ -250,7 +261,12 @@ nav a:hover { opacity: 0.82; color: #ffffff; }
   font-weight: 700;
   letter-spacing: 0.04em;
   text-decoration: none;
-  transition: background 0.2s, box-shadow 0.2s, border-color 0.2s;
+  cursor:pointer;
+  transition:  background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background-color:rgba(0, 229, 195, 0.18);
 }
 
 .btn-outline {
@@ -271,6 +287,26 @@ nav a:hover { opacity: 0.82; color: #ffffff; }
 }
 
 .btn-ghost:hover { border-color: var(--muted); }
+
+.exp-tab {
+  display: block;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 26px;
+  border-radius: 4px;
+  font-family: 'NTR', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+  cursor:pointer;
+  transition:  background-color 0.3s ease, transform 0.2s ease;
+}
+
+.exp-tab:hover {
+  background-color:rgba(0, 229, 195, 0.18);
+}
+
 
 /* ── QUICK NOTES ── */
 .quick-notes {
