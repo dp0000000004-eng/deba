@@ -106,13 +106,18 @@ nav a:hover {
 
 .nav-icons a {
   color: #d9e3ff;
-  line-height: 0;
+  size:9px;
   transition: opacity 0.2s;
 }
 
 .nav-icons a:hover {
-   opacity: 1; color: #00e5c3; }
-.nav-icons svg { width: 14px; height: 14px; }
+  color: #00e5c3;
+}
+.nav-icons svg { 
+  width: 17px;
+  height: 17px;
+  margin-top: 9px;
+}
 
 /* ── PAGE WRAPPER ── */
 .page {
