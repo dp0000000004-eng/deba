@@ -1,5 +1,6 @@
 import React from "react"
 import AboutArt from "./AboutArt"
+import ReactDOM from "react-dom/client"
 
 
 const Art = () => {

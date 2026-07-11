@@ -20,7 +20,7 @@ const About = () => {
         "Python",
         "JavaScript",
         "Django",
-        "React.js"
+        "React.js",
     ]
 
     return(

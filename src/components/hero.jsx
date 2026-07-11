@@ -1,3 +1,6 @@
+import me2 from "../assets/me2.png"
+import React from "react"
+import ReactDOM from "react-dom/client"
 
 const HeroSection = () => {
 

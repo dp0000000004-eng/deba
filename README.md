@@ -1,6 +1,15 @@
-# Debasish Pradhan - Personal Portfolio
+<div style="text-align:center;">
+  <img src="./src/assets/web-app.png" alt="Screenshot" style="width:7%;" />
+</div>
 
- clean design , simple looking web that represent me in web!
+
+# <div style="text-align: center;">DebasishPradhan</div>
+
+
+New virsion of my web [deba](https://dp0000000004-eng.github.io/deba) with react.
+
+
+![Screenshot of My web](./src/assets/Webss.png)
 
 ## Features
  
@@ -12,7 +21,7 @@
 
 - HTML
 - CSS
-- JavaScript
+- React.js
 
 ## Pull Request-
 - Welcome to Everybody❤️
