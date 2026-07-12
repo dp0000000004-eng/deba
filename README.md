@@ -25,3 +25,8 @@ New virsion of my web [deba](https://dp0000000004-eng.github.io/deba) with react
 
 ## Pull Request-
 - Welcome to Everybody❤️
+
+
+#### Let's connect!
+[<img alt="Medium" src="https://img.shields.io/badge/Medium-%23000000.svg?&style=for-the-badge&logo=Medium&logoColor=white" />](https://medium.com/@debasishpradhan044)
+[<img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-%230E76A8.svg?&style=for-the-badge&logo=LinkedIn&logoColor=white" />](www.linkedin.com/in/debasish-p-d1)
